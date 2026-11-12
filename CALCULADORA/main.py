@@ -33,7 +33,6 @@ def entrar_valores(event):
 
     todos_valores = todos_valores + str(event)
 
-
     #Valor na Tela
     valor_texto.set(todos_valores)
 
@@ -118,7 +117,6 @@ b_17.place(x=118, y=208) #y= horizontal, x= vertical
 
 b_18 = Button(frame_corpo, command = calcular, text='=', width=5, height=2, bg=cor4, fg=cor5, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_18.place(x=177, y=208) #y= horizontal, x= vertical
-
 
 
 
